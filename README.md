@@ -22,3 +22,21 @@ sandbox-exec -f zhunru.conf /Applications/zhunru.app/Contents/MacOS/BaiduInterna
 sandbox-exec -f baidu_hi.conf /Applications/百度Hi.app/Contents/MacOS/BaiduHi
 ```
 
+# 后续计划
+
+app，
+
+```
+Google Chrome
+Firefox
+Safari
+QQ
+```
+
+本地服务器应用，
+
+```
+mongodb
+mysql
+nginx
+```
