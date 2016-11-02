@@ -10,7 +10,7 @@
 
 ```
 redis
-sandbox-exec -f redis-sandbox.conf /usr/local/homebrew/opt/redis/bin/redis-server /usr/local/homebrew/etc/redis.conf
+sandbox-exec -f redis.conf /usr/local/homebrew/opt/redis/bin/redis-server /usr/local/homebrew/etc/redis.conf
 
 elasticsearch - 先修改你的 es 路径
 sandbox-exec -f elasticsearch.conf /secure/elasticsearch-1.7.3/bin/elasticsearch
