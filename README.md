@@ -17,5 +17,8 @@ sandbox-exec -f elasticsearch.conf /secure/elasticsearch-1.7.3/bin/elasticsearch
 
 百度Mac准入
 sandbox-exec -f zhunru.conf /Applications/zhunru.app/Contents/MacOS/BaiduInternalPlatform.bin
+
+百度Hi
+sandbox-exec -f baidu_hi.conf /Applications/百度Hi.app/Contents/MacOS/BaiduHi
 ```
 
