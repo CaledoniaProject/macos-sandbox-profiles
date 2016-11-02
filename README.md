@@ -10,7 +10,10 @@
 redis
 sandbox-exec -f /usr/local/homebrew/etc/sandbox/redis-sandbox.conf /usr/local/homebrew/opt/redis/bin/redis-server /usr/local/homebrew/etc/redis.conf
 
-elasticsearch
-待定
+elasticsearch - 先修改你的 es 路径
+sandbox-exec -f elasticsearch.conf /secure/elasticsearch-1.7.3/bin/elasticsearch
+
+百度Mac准入
+sandbox-exec -f zhunru.conf /Applications/zhunru.app/Contents/MacOS/BaiduInternalPlatform.bin
 ```
 
